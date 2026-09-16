@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael Baraona | Concejal de Montería</title>
+  <meta name="description" content="Sitio oficial de Rafael Baraona, Concejal de Montería. Conoce su plan de trabajo, su gestión y súmate al movimiento #Baraonízate.">
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v21.0"></script>
+
+  <!-- HEADER -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-badge"><img src="img/logo-rafael-baraona.jpg" alt="Rafael Baraona"></span>
+        <span class="logo-text">
+          <span class="logo-top">Rafael</span>
+          <span class="logo-bottom">BARAONA</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <span class="nav-dot" aria-hidden="true">•</span>
+        <a href="#sobre-mi" class="nav-link">Nosotros</a>
+        <span class="nav-dot" aria-hidden="true">•</span>
+        <a href="#noticias" class="nav-link">Noticias</a>
+        <span class="nav-dot" aria-hidden="true">•</span>
+        <a href="#contacto" class="nav-link">Contacto</a>
+        <a href="#contacto" class="btn btn-primary nav-cta">Únete</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="line line-1">JUNTOS</span>
+          <span class="line line-2">AVANZAMOS</span>
+        </h1>
+        <p class="hero-lead">Concejal de Montería. Trabajando por una ciudad más segura, honesta y con futuro para todos.</p>
+        <div class="hero-tags">
+          <span class="tag">#BARAONÍZATE</span>
+          <span class="tag">AGENDA CIUDADANA</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-photo">
+          <img src="img/foto-rafael-discurso.jpg" alt="Rafael Baraona, Concejal de Montería">
+        </div>
+      </div>
+    </div>
+
+    <!-- Pill de navegación rápida flotante -->
+    <div class="quick-nav">
+      <a href="#sobre-mi"><span class="quick-icon">🛡️</span>Nuestra historia</a>
+      <a href="#noticias"><span class="quick-icon">⭐</span>Noticias</a>
+      <a href="#contacto"><span class="quick-icon">🤝</span>Únete</a>
+    </div>
+  </section>
+
+  <!-- BANDA DE MISIÓN -->
+  <section class="mission-band">
+    <div class="container">
+      <h2>Muévete, <span>Baraonízate</span></h2>
+      <p>Grandes propuestas para transformar a Montería y construir la ciudad que merecemos.</p>
+    </div>
+  </section>
+
+  <!-- PROPUESTAS (oculta temporalmente: quita el atributo "hidden" para volver a mostrarla) -->
+  <section class="section propuestas-section" id="propuestas" hidden>
+    <div class="container">
+      <p class="section-eyebrow center">Plan de trabajo</p>
+      <h2 class="center">Propuestas para el cambio</h2>
+      <p class="section-lead center">
+        Ejes de trabajo construidos junto a la comunidad, con metas claras y medibles.
+      </p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Seguridad ciudadana</h3>
+          <p>Más presencia comunitaria, prevención del delito y coordinación con autoridades locales.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🏛️</div>
+          <h3>Cero corrupción</h3>
+          <p>Transparencia total en el manejo de recursos públicos y cero tolerancia con quienes abusan del poder.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">💙</div>
+          <h3>Salud digna</h3>
+          <p>Acceso real a centros de salud y reducción de los tiempos de espera en la atención primaria.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🎓</div>
+          <h3>Educación de calidad</h3>
+          <p>Más recursos para escuelas públicas, becas y programas de formación técnica para jóvenes.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">💼</div>
+          <h3>Empleo y desarrollo</h3>
+          <p>Incentivos para pequeñas empresas y programas de capacitación laboral en cada localidad.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🌱</div>
+          <h3>Campo y agro</h3>
+          <p>Apoyo real al campo para producir más, exportar más y vivir mejor.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">👩</div>
+          <h3>Igualdad para las mujeres</h3>
+          <p>Oportunidades reales y protección para que las mujeres de nuestra comunidad vivan sin miedo.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🌎</div>
+          <h3>Medio ambiente</h3>
+          <p>Desarrollo y conservación para un futuro sostenible para todos.</p>
+        </article>
+      </div>
+
+      <div class="center" style="margin-top:2.5rem;">
+        <a href="#contacto" class="btn btn-gold">CONOCE TODO EL PLAN →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ / VALORES -->
+  <section class="section values-section" id="sobre-mi">
+    <div class="container values-inner">
+      <div class="photo-collage">
+        <div class="collage-item item-1"><img src="img/foto-posesion-grupo.jpg" alt="Posesión de Rafael Baraona en el Concejo de Montería"></div>
+        <div class="collage-item item-2"><img src="img/foto-rafael-discurso.jpg" alt="Rafael Baraona en el Concejo de Montería"></div>
+        <div class="collage-item item-3 collage-badge"><img src="img/logo-rafael-baraona.jpg" alt="Logo Rafael Baraona"></div>
+      </div>
+      <div class="values-text">
+        <p class="section-eyebrow">Sobre mí</p>
+        <h2>Nuestros valores</h2>
+        <p>
+          Soy Rafael Baraona, Concejal de Montería. ¿En qué creemos? Nuestros
+          valores fundamentales se basan en el trabajo honesto, la cercanía con
+          la gente, la justicia y la transparencia. [Reemplazar con biografía real:
+          profesión, cargos previos, logros y motivación para el cargo].
+        </p>
+        <p>
+          Creemos en la familia y la comunidad como el núcleo de la sociedad, y
+          luchamos contra la corrupción, la desigualdad y la indiferencia. Nuestro
+          compromiso es con la gente y con el futuro de nuestro territorio.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat-block">
+            <div class="stat-icon">❤️</div>
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Cercanía y compromiso</span>
+          </div>
+          <div class="stat-block">
+            <div class="stat-icon">👥</div>
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Unidos por la comunidad</span>
+          </div>
+          <div class="stat-block">
+            <div class="stat-icon">📍</div>
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Comprometidos con el territorio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOTICIAS + FACEBOOK -->
+  <section class="section section-dark" id="noticias">
+    <div class="container">
+      <p class="section-eyebrow center">Actividad de campaña</p>
+      <h2 class="center light">Noticias</h2>
+      <p class="section-lead center light">
+        Mantente informado sobre la actualidad de Rafael Baraona en el Concejo de Montería.
+      </p>
+
+      <div class="noticias-grid">
+        <!-- Video destacado -->
+        <div class="featured-video">
+          <p class="section-eyebrow center">Video</p>
+          <h3 class="center light">Bienvenida al Concejo</h3>
+          <p class="section-lead center light">
+            Bienvenida a Rafael Baraona, quien asume su reto como Concejal de Montería.
+          </p>
+
+          <video controls preload="metadata" poster="img/foto-rafael-discurso.jpg">
+            <source src="video/bienvenida-concejo.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+
+        <!-- Publicaciones de Facebook -->
+        <div class="fb-block">
+          <p class="section-eyebrow center">Síguenos</p>
+          <h3 class="center light">Últimas publicaciones en Facebook</h3>
+          <p class="section-lead center light">
+            Cada actividad, evento y anuncio de la campaña, directamente desde
+            nuestra página oficial de Facebook.
+          </p>
+
+          <div class="fb-feed-wrapper">
+            <!--
+              IMPORTANTE: reemplaza data-href en el div .fb-page más abajo
+              por la URL real de la página de Facebook del candidato, por ejemplo:
+              data-href="https://www.facebook.com/RafaelBaraonaOficial"
+            -->
+            <div class="fb-page"
+                 data-href="https://www.facebook.com/facebook"
+                 data-tabs="timeline"
+                 data-width=""
+                 data-height="600"
+                 data-small-header="false"
+                 data-adapt-container-width="true"
+                 data-hide-cover="false"
+                 data-show-facepile="true">
+              <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/facebook">Página de Facebook del candidato</a>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="center" style="margin-top:1.5rem;">
+            <a href="https://www.facebook.com/facebook" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
+              Ver página completa en Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA GRANDE -->
+  <section class="cta-band">
+    <div class="container center">
+      <h2>Toda la campaña se construye con trabajo, cercanía y esfuerzo.</h2>
+      <p>Nada de promesas vacías: solo compromiso real con nuestra gente.</p>
+      <a href="#contacto" class="btn btn-primary">ÚNETE AL MOVIMIENTO</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-cta" id="contacto">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <p class="section-eyebrow">Súmate</p>
+        <h2>Sé parte de este movimiento</h2>
+        <p>
+          Déjanos tus datos para recibir novedades de la campaña, oportunidades de
+          voluntariado y próximos eventos en tu comunidad.
+        </p>
+        <ul class="contact-info">
+          <li>📍 Concejo de Montería, Montería, Córdoba [dirección exacta a definir]</li>
+          <li>✉️ contacto@rafaelbaraona.co</li>
+          <li>📞 [teléfono a definir]</li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.facebook.com/facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">X</a>
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje (opcional)</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+        <button type="submit" class="btn btn-primary btn-block">Quiero sumarme</button>
+        <p class="form-note" id="formNote" hidden>
+          Este formulario aún no está conectado a un servicio de envío. Conéctalo a
+          Formspree, un backend propio o tu CRM de campaña.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-ribbon" aria-hidden="true"></div>
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <a href="#inicio" class="logo">
+          <span class="logo-badge"><img src="img/logo-rafael-baraona.jpg" alt="Rafael Baraona"></span>
+          <span class="logo-text">
+            <span class="logo-top">Rafael</span>
+            <span class="logo-bottom">BARAONA</span>
+          </span>
+        </a>
+        <div class="social-links footer-social">
+          <a href="https://www.facebook.com/facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Nosotros</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Política de tratamiento de datos</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+
+      <div class="footer-col footer-ctas">
+        <a href="#contacto" class="btn btn-primary btn-block">Únete al movimiento</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Rafael Baraona. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

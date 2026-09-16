@@ -1,0 +1,5 @@
+# Material de referencia interno, no forma parte del sitio publicado
+*.pdf
+
+# Copia usada solo para publicar vista previa en Claude Artifacts
+artifact-index.html
